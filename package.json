@@ -2,6 +2,7 @@
   "dependencies": {
     "electron": "^36.2.0",
     "install": "^0.13.0",
-    "mongoose": "^8.14.3"
+    "mongoose": "^8.15.0",
+    "run": "^1.5.0"
   }
 }

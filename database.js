@@ -1,6 +1,6 @@
 const mongooge = require('mongoose')
 
-const url = 'mongodb+srv://admin:123Senac@cluster0.lfstp.mongodb.net/
+const url = 'mongodb+srv://admin:123Senac@cluster0.lfstp.mongodb.net/dbcadastro
 
 let conectado = false
 const conectar = async () => {
