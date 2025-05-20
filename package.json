@@ -3,6 +3,24 @@
     "electron": "^36.2.0",
     "install": "^0.13.0",
     "mongoose": "^8.15.0",
-    "run": "^1.5.0"
-  }
+    "run": "^1.5.0",
+    "start": "^5.1.0"
+  },
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "Projeto para serviços de pinturas e grafiato",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiolopes17/PROJETO.git"
+  },
+  "author": "Caio Lopes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caiolopes17/PROJETO/issues"
+  },
+  "homepage": "https://github.com/caiolopes17/PROJETO#readme"
 }
