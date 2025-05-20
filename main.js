@@ -6,7 +6,7 @@ const path = require('node:path')
 
 const { conectar, desconectar } = require('./database.js')
 
-const clientModel = require('./src/models/Clientes.js')
+const clientModel = require('./src/models/cliente.js')
 
 const fs = require('fs')
 
