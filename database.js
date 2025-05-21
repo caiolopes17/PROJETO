@@ -8,7 +8,8 @@ const conectar = async () => {
 
    try {
     await mongoose.connect(url)
-    conectado = trueconsole.log("MongoDB Conectado")
+    conectado = true
+    console.log("MongoDB Conectado")
     return true
    } catch (error) {
     if (error.code = 8000) {
@@ -21,7 +22,6 @@ const conectar = async () => {
 }
 }
 
-const desconctar = async () => {
     const desconectar = async () => {
        
         if (conectado) {
@@ -39,4 +39,3 @@ const desconctar = async () => {
     }
     
     module.exports = { conectar, desconectar }
-}

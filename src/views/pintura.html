@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Orçamento de Pintura</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <div class="container mt-4">
+    <h2 class="mb-4">Cadastro de Orçamento</h2>
+
+    <form>
+      <div class="row g-3">
+        <!-- Nome -->
+        <div class="col-md-6">
+          <label class="form-label">Nome do Cliente</label>
+          <input type="text" class="form-control" name="nome">
+        </div>
+
+        <!-- Telefone -->
+        <div class="col-md-3">
+          <label class="form-label">Telefone</label>
+          <input type="text" class="form-control" name="telefone">
+        </div>
+
+        <!-- Tipo de Pintura -->
+        <div class="col-md-3">
+          <label class="form-label">Tipo de Pintura</label>
+          <select class="form-select" name="tipo_pintura">
+            <option>Interna</option>
+            <option>Externa</option>
+          </select>
+        </div>
+
+        <!-- Área -->
+        <div class="col-md-3">
+          <label class="form-label">Área (m²)</label>
+          <input type="number" class="form-control" name="area">
+        </div>
+
+        <!-- Demãos -->
+        <div class="col-md-3">
+          <label class="form-label">Demãos</label>
+          <input type="number" class="form-control" name="demaos" value="2">
+        </div>
+
+        <!-- Tipo de Tinta -->
+        <div class="col-md-4">
+          <label class="form-label">Tipo de Tinta</label>
+          <input type="text" class="form-control" name="tinta">
+        </div>
+
+        <!-- Observações -->
+        <div class="col-12">
+          <label class="form-label">Observações</label>
+          <textarea class="form-control" name="observacoes" rows="3"></textarea>
+        </div>
+
+        <!-- Botão -->
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
