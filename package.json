@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bootstrap": "^5.3.6",
     "electron": "^36.2.1",
     "install": "^0.13.0",
     "jspdf": "^3.0.1",
